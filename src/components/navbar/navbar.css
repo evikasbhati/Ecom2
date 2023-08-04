@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.logoContainer{
+    width: 174px;
+    margin-left: -80px;
+}
+.logo{
+    width: 34px;
+    height: 60px;
+}
+.shopIcons{
+    width:160px
+   }
+.menu{
+    width:380px
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logoContainer{
+        width: 74px;
+    }
+    .menu{
+        width: 300px;
+    }
+    .shopIcons{
+        display: none !important;
+       }
+}
+@media screen and (max-width: 750px) {
+    .menu{
+        width: 250px;
+    }
+}

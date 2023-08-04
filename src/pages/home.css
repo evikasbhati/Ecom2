@@ -1,0 +1,92 @@
+.homeContainer{
+    height: 1380px;
+    width: 100%;
+    background: linear-gradient(124.58deg, #FFDCF3 2.1%, #D7FFFF 100.64%);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.contentContainer{
+    width: 560px;
+    height: 730px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;    
+}
+.arrow{
+    position: relative;
+    top: -65px;
+    left: 150px;
+}
+.imgContanier{
+    position: absolute;
+    right: 100px;
+}
+.shoe{
+    position: absolute;
+    right: 22px;
+    z-index: 0;;
+}
+.shoeDesign{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+.shoeShadow{
+    position: absolute;
+    right: 100px;
+    top:500px;
+    z-index: 0;
+
+}
+.offerContainer{
+    position: absolute;
+    right: 50px;
+    top:580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 222px;
+    height: 95px;
+    padding: 0px 20px ;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.54);
+    border: 0.93px solid;
+    border-image-source: linear-gradient(144.76deg, rgba(166, 20, 115, 0.33) -0.67%, #FFFFFF 43.53%, rgba(5, 242, 242, 0.37) 88.65%);
+    border-image-slice: 1;
+    border-radius: 10px;
+
+}
+@media screen and (max-width: 900px) {
+    .homeContainer{
+        height: 100%;
+    }
+    .midContainer{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imgContanier{
+         position: relative;
+        top: -150px;
+        left: 400px; 
+    }
+    
+    }
+    @media screen and (max-width: 600px) {
+        .imgContanier{
+            display: none !important;
+        }
+        .contentContainer{
+            width: 330px;
+            height: 500px;
+        }
+        .arrowBox{
+            display: none !important;
+        }
+    }

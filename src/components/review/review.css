@@ -1,0 +1,15 @@
+.reviewContainer{
+    width: 350px;
+    height:136px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.upperContainer{
+    width: 150px;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
